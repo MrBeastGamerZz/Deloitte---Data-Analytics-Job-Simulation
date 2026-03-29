@@ -127,11 +127,6 @@ END
 
 ## 🏅 Certificate
 
-Issued by **Deloitte Australia** via Forage — March 29, 2026
+**Issued by:** Deloitte Australia via Forage — March 29, 2026  
+🔗 [View verified certificate on LinkedIn](https://www.linkedin.com/posts/manjunathareddyn_forage-data-analytics-certificate-ugcPost-7443937453276758016-JoA2)
 
----
-
-## 🔗 Connect with Me
-
-- 💼 [LinkedIn](#)
-- 🐙 [GitHub Profile](#)
