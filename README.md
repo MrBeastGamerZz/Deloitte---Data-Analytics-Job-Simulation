@@ -5,8 +5,8 @@
 
 ## 📌 Overview
 
-This repository contains my work from the "Deloitte Australia Data Analytics 
-Job Simulation" hosted on Forage. The simulation replicates real tasks performed 
+This repository contains my work from the **Deloitte Australia Data Analytics 
+Job Simulation** hosted on Forage. The simulation replicates real tasks performed 
 by analysts at Deloitte's Forensic Technology team — involving data classification, 
 business intelligence dashboarding, and drawing actionable conclusions from 
 operational data.
@@ -15,23 +15,24 @@ operational data.
 
 ## 🏢 About the Simulation
 
-Company: Deloitte Australia  
-Track: Data Analytics 
-Platform: Forage  
-Completed: March 29, 2026  
+**Company:** Deloitte Australia  
+**Track:** Data Analytics & Forensic Technology  
+**Platform:** Forage  
+**Completed:** March 29, 2026  
 
 ---
+
 ## 🎯 Tasks Completed
 
 ### ✅ Task 1 — Tableau Dashboard Development
 
 Built an interactive Tableau dashboard analyzing operational data 
-across "4 Daikibo factories":
+across **4 Daikibo factories**:
 - Daikibo Berlin
 - Daikibo Factory Meiyo
 - Daikibo Factory Seiko
 - Daikibo Shenzhen
-- 
+  
 ---
 
 ### ✅ Task 2 — Data Classification in Excel
@@ -40,7 +41,7 @@ across "4 Daikibo factories":
   - `Job Role` — employee role/designation
   - `Equality Score` — integer score ranging from -100 to +100
     
-- Added a calculated 4th column: Equality Class using the formula:
+- Added a calculated **4th column: Equality Class** using the formula:
 ```excel
 =IF(ABS(C2)<=10,"Fair",IF(ABS(C2)<=20,"Unfair","Highly Discriminative"))
 ```
@@ -52,6 +53,7 @@ across "4 Daikibo factories":
 | ⚠️ Unfair            | +-20 ≤ score ≤ +-11               |
 | 🚨 Highly Discriminative | score < -20 or score > +20    |
 
+---
 
 #### 📊 Visual 1 — Down Time per Factory
 - Identified Daikibo Factory Seiko as the highest downtime factory (480 Unhealthy units)
@@ -66,6 +68,13 @@ across "4 Daikibo factories":
 - Bar chart colored by Equality Class (🟢 Fair / 🟡 Highly Discriminative / 🔴 Unfair)
 - Enables quick identification of discriminatory compensation 
   patterns per factory and role
+- Added a calculated 4th column : Equality Class using the formula:
+```tableau
+IF ABS([Equality Score]) <= 10 THEN "Fair"
+ELSEIF ABS([Equality Score]) <= 20 THEN "Unfair"
+ELSE "Highly Discriminative"
+END
+```
 
 ---
 
@@ -98,14 +107,21 @@ across "4 Daikibo factories":
 
 ## 📸 Screenshots
 
-### Equality Classification Table
-![Equality Table](screenshots/equality_table.png)
+### Dashboard — Down Time per Factory
+![Dashboard](screenshots/Screenshot-sheet1.png)
 
-### Equality Score Bar Chart (by Factory & Job Role)
-![Bar Chart](screenshots/equality_barchart.png)
+### Dashboard — Down Time per Device Type
+![Dashboard](screenshots/Screenshot-sheet2.png)
 
 ### Dashboard — Down Time Analysis
-![Dashboard](screenshots/dashboard_downtime.png)
+![Dashboard](screenshots/Screenshot-downtime_db.png)
+![Dashboard](screenshots/Screenshot-downtime.png)
+
+### Equality Classification Table
+![Equality Table](screenshots/Screenshot-excel_table.png)
+
+### Equality Score Bar Chart (by Factory & Job Role)
+![Bar Chart](screenshots/Screenshot-excel_db.png)
 
 ---
 
