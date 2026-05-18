@@ -15,6 +15,7 @@
   <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON">
 </p>
 </div>
+
 ---
  
 ## 📌 Overview
@@ -37,6 +38,7 @@ The client: **Daikibo Industrials**, a global machinery manufacturer operating 4
 - [What I Would Do Differently](#-what-i-would-do-differently)
 - [Screenshots](#-screenshots)
 - [Connect](#-connect)
+  
 ---
  
 ## 📋 Simulation Summary
